@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-body{
-    width: 80%;
-    margin:auto;
-}
+
 .box1{
     display: flex;
     margin-bottom: 60px;
