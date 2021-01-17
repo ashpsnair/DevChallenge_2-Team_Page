@@ -17,8 +17,9 @@
     
 }
 .imgs img{
-    height: 300px;
-    width:200px;
+    max-width: 80%;
+
+   
 }
 .imgs{
    
@@ -52,7 +53,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .box1{
         display: block; }
     #box1a{
@@ -63,8 +64,7 @@
     margin:30px;}
 
     .imgs img{
-        height:130px;
-        width:90px;
+        max-width: 100%;
         margin: 0;
     }
    
@@ -78,8 +78,8 @@
         transform-origin:right;
         transform: rotate(90deg);
         font-size: 10px;
-        left: -3px;
-        top:-40px;
+        left: 5px;
+        top:-60px;
         position: relative;
      }
      .imgs div:nth-child(2n){
