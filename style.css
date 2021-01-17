@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
-    width: 90%;
-    align-items:center;
+    width: 80%;
+    margin:auto;
 }
 .box1{
     display: flex;
@@ -38,7 +38,7 @@ body{
 
 .imgs> div {
     display: block;
-    width: 250px; 
+    width: 200px; 
     margin:30px;     
 }
 .imgs> div >p {
