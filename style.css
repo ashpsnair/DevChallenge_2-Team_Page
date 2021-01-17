@@ -63,7 +63,13 @@
     margin-top: 18%;
 }
 
-
+footer{
+    text-align:center;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size:18px;
+    font-weight: 600;
+}
 @media screen and (max-width: 800px) {
     
     .box1{
