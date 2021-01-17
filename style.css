@@ -23,6 +23,7 @@ body{
     line-height: 27px;
     font-family: 'Poppins', sans-serif;
     
+    
 }
 .imgs img{
     max-width: 80%;
@@ -67,18 +68,22 @@ body{
 
 
 @media screen and (max-width: 800px) {
+    
     .box1{
         display: block; }
     #box1a{
     margin:30px;
+    
 }
     #box1b{ 
     width:80%;
-    margin:30px;}
+    margin:30px;
+    }
 
     .imgs img{
         max-width: 100%;
         margin: 0;
+       
     }
    
     .imgs div{
@@ -86,7 +91,6 @@ body{
         margin:7%;
     }
    
-
     .imgs> div> aside {
         transform-origin:right;
         transform: rotate(90deg);
