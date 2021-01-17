@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .box1{
     display: flex;
     margin-bottom: 60px;
@@ -5,27 +7,30 @@
 #box1a{
     margin-left:15%;
     margin-top:35px;
+    font-family: 'Poppins', sans-serif;
+    width:30%;
     
 }  
 #box1b{
-    width: 400px;
-    margin-left:18%;
+    width: 500px;
+    margin-left:8%;
     margin-top: 25px;
     font-family: Poppins;
     font-size: 18px;
     line-height: 27px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .imgs img{
     max-width: 80%;
-
-   
+      
 }
 .imgs{
-   
     display: flex;
     flex-wrap:wrap;
-    margin: 40px;
+    margin-left: 15%;
+    margin-right:0%;
+
 }
 
 .imgs> div {
@@ -38,6 +43,7 @@
     margin-left: 3px;  
     padding: 0%;
     margin:0%;    
+    font-family: 'Poppins', sans-serif;
 }
 .imgs> div> aside {
    transform-origin:right;
@@ -47,8 +53,12 @@
    top:-60px;
    position: relative;
    font-size: 15px;
+   font-family: 'Poppins', sans-serif;
 }
-.imgs div:nth-child(2n){
+.imgs div:nth-child(2){
+    margin-top: 18%;
+}
+.imgs div:nth-child(5){
     margin-top: 18%;
 }
 
