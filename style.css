@@ -38,7 +38,7 @@ body{
 
 .imgs> div {
     display: block;
-    width: 200px; 
+    width: 25%; 
     margin:30px;     
 }
 .imgs> div >p {
@@ -52,8 +52,8 @@ body{
    transform-origin:right;
    transform: rotate(90deg);
    text-transform: uppercase;
-   left: -40px;
-   top:-60px;
+   left: -30px;
+   top:-80px;
    position: relative;
    font-size: 15px;
    font-family: 'Poppins', sans-serif;
@@ -90,7 +90,7 @@ body{
     .imgs> div> aside {
         transform-origin:right;
         transform: rotate(90deg);
-        font-size: 10px;
+        font-size: 8px;
         left: 5px;
         top:-60px;
         position: relative;
