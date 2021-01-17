@@ -1,0 +1,53 @@
+.box1{
+    display: flex;
+    margin-bottom: 60px;
+}
+#box1a{
+    margin-left:15%;
+    margin-top:35px;
+    
+}  
+#box1b{
+    width: 400px;
+    margin-left:18%;
+    margin-top: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+.imgs{
+    margin-left: 50px;
+}
+.imgs div {
+     display: flex;
+     margin-left: 60px;
+     margin-bottom: 50px;
+}
+.imgs> div > div {
+    display: block;
+    width: 250px; 
+    margin:30px;     
+}
+.imgs> div > div >p {
+    margin-top: 0;
+    margin-left: 3px;      
+}
+.imgs> div>div >aside {
+   transform-origin:right;
+   transform:translate(-40px) rotate(90deg);
+   margin-top: -60px;
+   text-transform: uppercase;
+}
+.imgs img{
+    height: 300px;
+    width:200px;
+}
+
+.imgs div> div:nth-child(2){
+    margin-top: 13%;
+}
+
+@media only screen and (max-width: 600px) {
+   
+  }
